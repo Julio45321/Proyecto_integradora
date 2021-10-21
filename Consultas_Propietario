@@ -1,8 +1,8 @@
 <?php
 
 
-require_once('conexion.php');
-require_once('Plantilla.php');
+require_once('conexion.php'); //cree una conexion ficticia para no me diera el error en visual code// 
+require_once('Plantilla.php'); 
 require_once('Propietarios.php');
 
 mysqli_report(MYSQLI_REPORT_ALL & ~MYSQLI_REPORT_INDEX);
